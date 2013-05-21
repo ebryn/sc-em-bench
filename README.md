@@ -69,6 +69,7 @@ Benchmarking Creating an anonymous class with properties inline
 17, 0.0154
 18, 0.0175
 19, 0.0169
+```
 
 
 ### Ember
@@ -121,3 +122,4 @@ Benchmarking Creating an anonymous class with properties inline
 17, 0.0493
 18, 0.0522
 19, 0.0562
+```
