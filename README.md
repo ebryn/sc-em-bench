@@ -1,4 +1,25 @@
-=== SproutCore
+# SC versus Ember
+
+Admitedly naive bench marks for the purpose of understanding the difference between the two object models... Comment at
+will on how I might not have got the test right...
+
+Inital Observations:
+
+Ember is 1.5 times as fast at operating bindings
+
+Ember seems to be about 10 times faster operating accessors
+
+Ember is around twice as fast at creating an anonymous object view #extend#create
+
+Ember is slower at using object#create to create anonymous objects
+
+Ember #extend appears to grown linearly in time as more properties are passed, where as SC bonces all over the place
+no doubt due to some GC nonsense.
+
+.joe
+
+
+### SproutCore
 
 Time to operate a binding 10000 times: 835
 Time to call get 10000 times on a primitive: 89
@@ -49,7 +70,7 @@ Benchmarking Creating an anonymous class with properties inline
 19, 0.0169
 
 
-=== Ember
+### Ember
 
 Time to operate a binding 10000 times: 531
 Time to call get 10000 times on a primitive: 14
