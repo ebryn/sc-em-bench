@@ -20,7 +20,7 @@ no doubt due to some GC nonsense.
 
 
 ### SproutCore
-
+```
 Time to operate a binding 10000 times: 835
 Time to call get 10000 times on a primitive: 89
 Time to call get 10000 times on a computed: 89
@@ -71,7 +71,7 @@ Benchmarking Creating an anonymous class with properties inline
 
 
 ### Ember
-
+```
 Time to operate a binding 10000 times: 531
 Time to call get 10000 times on a primitive: 14
 Time to call get 10000 times on a computed: 18
